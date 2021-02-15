@@ -9,7 +9,8 @@ Issues are the basic building block of Jira, and agile software projects are oft
 
 We want to be able to create snapshots of this "issue tree", stored in a PostgreSQL database. (And one could add automation rules and post functions to issue transitions in Jira to take these snapshots automatically, using a webhook.) On a simple Flask web app, we should then be able to a) visualise snapshots and b) compare previous snapshots with each other, or with the current issue tree, with a "diff" function. 
 
-Currently:
+### current status
+At the moment:
 - we can represent issue trees with IssueNode objects
 - we can put/pull snapshots of trees to/from the database
 
