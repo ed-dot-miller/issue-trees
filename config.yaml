@@ -1,0 +1,10 @@
+jira:
+  server: <url>
+  auth: <auth>
+
+postgres:
+  host: 127.0.0.1
+  port: 5432
+  user: postgres
+  password: postgres
+  dbname: postgres
